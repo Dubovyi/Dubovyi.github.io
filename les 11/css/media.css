@@ -1,0 +1,37 @@
+@media only screen and (min-width: 1171px) {
+.conteiner{
+		width: 1170px;
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 1170px) {
+	.conteiner{
+		width: 992px;
+		margin: 0 auto;
+	}
+	#services .serviceWrap{
+		width: 100%;
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.conteiner{
+		width: 768px;
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.conteiner{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#services .serviceWrap{
+		flex-direction: column;
+	}
+	#services .serviceWrap .service{
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	
+}
